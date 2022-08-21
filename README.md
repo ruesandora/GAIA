@@ -79,9 +79,10 @@ gaiad config node tcp://localhost:${GAIA_PORT}657
 gaiad init $NODENAME --chain-id $GAIA_CHAIN_ID
 ```
 
-## genesis:
+## genesis ve addrbook:
 ```
-wget -qO $HOME/.gaia/config/genesis.json "https://raw.githubusercontent.com/Stride-Labs/testnet/main/poolparty/gaia/gaia_genesis.json"
+wget -qO $HOME/.gaia/config/genesis.json "https://raw.githubusercontent.com/mmc6185/node-testnets/main/stride/GAIA/genesis.json"
+wget -qO $HOME/.gaia/config/addrbook.json "https://raw.githubusercontent.com/mmc6185/node-testnets/main/stride/GAIA/addrbook.json"
 ```
 
 ## Seed ve peerler ve bağlantılar:
